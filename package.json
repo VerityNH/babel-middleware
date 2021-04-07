@@ -1,14 +1,11 @@
 {
-  "name": "babel-middleware",
-  "version": "0.3.4",
-  "description": "Express/Connect middleware to pre-process requested JS files through Babel",
+  "name": "@veritynh/babel-middleware",
+  "version": "0.0.1",
+  "description": "Express/Connect middleware to pre-process requested JS files through Babel 7",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec --check-leaks test/"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mralex/babel-middleware"
+    "url": "https://github.com/VerityNH/babel-middleware"
   },
   "keywords": [
     "babel",
@@ -22,18 +19,11 @@
   "bugs": {
     "url": "https://github.com/mralex/babel-middleware/issues"
   },
-  "homepage": "https://github.com/mralex/babel-middleware",
+  "homepage": "https://github.com/VerityNH/babel-middleware",
   "dependencies": {
-    "@babel/core": "^7.8.7",
+    "@babel/core": "^7.13.14",
     "micromatch": "^4.0.2",
-    "mkdirp": "^0.5.1",
-    "rimraf": "^2.5.3"
-  },
-  "devDependencies": {
-    "chai": "^3.4.1",
-    "express": "^4.17.1",
-    "mocha": "^2.3.4",
-    "sleep": "^3.0.0",
-    "supertest": "^1.1.0"
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
   }
 }

@@ -1,3 +1,7 @@
+Author: Alex Roberts <alex@redprocess.com>
+License: Apache 2.0
+@https://github.com/mralex/babel-middleware
+
 babel-middleware
 ================
 
